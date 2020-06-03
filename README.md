@@ -16,7 +16,7 @@ Or just take a similar .cpp file, create a new project in Visual Studio, copy it
 ## To start a project you need:
 Place the source files in the root folder of the project.
 For instance:
-[Image alt](https://github.com/Jolim0n/Screenshots/raw/master/Снимок.png)
+![Снимок](https://user-images.githubusercontent.com/55711116/83633262-56a60b80-a5a9-11ea-82ac-b6957d309d72.PNG)
 
 
 ---------------------
