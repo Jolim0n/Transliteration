@@ -1,12 +1,9 @@
 # Transliteration
----------------------
 Transliteration from English to Russian and from Russian to English
 
 # Build with Visual Studio 17 and Build with CMake.
----------------------
 
 # How to launch
----------------------
 ## If you have Linux:
 You can simply run the CMakeLists.txt file through the command line.
 [CMake for Windows and Linux](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
@@ -26,8 +23,6 @@ It is necessary to register the task file, which will contain information from w
 
 And after you can easy run this:
 ### ![example](https://user-images.githubusercontent.com/55711116/83634444-3ecf8700-a5ab-11ea-8c60-4eb1702362d0.PNG)
----------------------
-
 
 
 
