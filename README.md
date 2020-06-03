@@ -34,6 +34,5 @@ And after you can easy run this:
 
 
 # Author
----------------------
 + Made by: Kosinsky Denis.
 + [Linkedin](https://www.linkedin.com/in/denys-kosinskiy-025a391aa/)
