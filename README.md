@@ -20,8 +20,8 @@ For instance:
 
 It is necessary to register the task file, which will contain information from which language you want to translate.
 For instance:
-#### File conf.txt
-#### code in.txt out.txt
-#### decode in2.txt out2.txt
+File conf.txt
+code in.txt out.txt
+decode in2.txt out2.txt
 
 ---------------------
