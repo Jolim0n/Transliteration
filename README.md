@@ -13,7 +13,10 @@ https://cmake.org/cmake/help/latest/guide/tutorial/index.html
 ## If you have Windows:
 For Windows, you can simply run the file CMakeLists.txt through the command line, create the sln file, you can work through it.
 Or just take a similar .cpp file, create a new project in Visual Studio, copy it there and start the project.
-
+## To start a project you need:
+Place the source files in the root folder of the project.
+For instance:
+[Image alt](https://github.com/Jolim0n/Screenshots/raw/master/Снимок.png)
 
 
 ---------------------
