@@ -7,9 +7,26 @@ Transliteration from English to Russian and from Russian to English
 ## If you have Linux:
 You can simply run the CMakeLists.txt file through the command line.
 [CMake for Windows and Linux](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
+
+```
+sudo apt-get install cmake
+sudo apt-get install cmake-gui
+cmake .
+cmake --build .
+```
 ## If you have Windows:
-For Windows, you can simply run the file CMakeLists.txt through the command line, create the sln file, you can work through it.
-Or just take a similar .cpp file, create a new project in Visual Studio, copy it there and start the project.
+Open a command line.
+Enter the path to the SMake folder where the project will be deployed.
+### For example: 
+```
+cd C:\Users\User\source\repos\Transliteratio\Transliteratio\CMake
+cmake .
+cmake --build .
+```
+![example](https://user-images.githubusercontent.com/55711116/83637386-39c10680-a5b0-11ea-85a5-6bdce755fae4.PNG)
+
+Project will build.
+
 ## To start a project you need:
 Place the source files in the root folder of the project.
 For instance:
@@ -23,10 +40,6 @@ It is necessary to register the task file, which will contain information from w
 
 And after you can easy run this:
 ### ![example](https://user-images.githubusercontent.com/55711116/83634444-3ecf8700-a5ab-11ea-8c60-4eb1702362d0.PNG)
-
-
-
-
 
 # Author
 + Made by: Kosinsky Denis.
