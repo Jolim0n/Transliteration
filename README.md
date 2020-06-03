@@ -16,7 +16,7 @@ cmake --build .
 ```
 ## If you have Windows:
 + Open a command line.
-+ Enter the path to the SMake folder where the project will be deployed.
++ Enter the path to the СMake folder where the project will be deployed.
 ### For example: 
 ```
 cd C:\Users\User\source\repos\Transliteratio\Transliteratio\CMake
