@@ -19,9 +19,9 @@ For instance:
 ### ![Снимок](https://user-images.githubusercontent.com/55711116/83633262-56a60b80-a5a9-11ea-82ac-b6957d309d72.PNG)
 
 It is necessary to register the task file, which will contain information from which language you want to translate.
-For instance:
-File conf.txt
-code in.txt out.txt
-decode in2.txt out2.txt
+For instance: \n
++ File conf.txt
++ code in.txt out.txt
++ decode in2.txt out2.txt
 
 ---------------------
