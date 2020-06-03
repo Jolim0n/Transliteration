@@ -1,0 +1,2 @@
+code in.txt out.txt
+decode in2.txt out2.txt
