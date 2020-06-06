@@ -41,6 +41,28 @@ It is necessary to register the task file, which will contain information from w
 And after you can easy run this:
 ### ![example](https://user-images.githubusercontent.com/55711116/83634444-3ecf8700-a5ab-11ea-8c60-4eb1702362d0.PNG)
 
+# Program development algorithm.
++ Check what is passed to the command line, if anything
++ If is equal to «/? »Withdraw help on the program.
++ If the second - read the name of the task file from the file.
++ Open the "task" file (If it does not open, display the error and close the program).
++ For each line from the file, execute:
+   + Parse the line into three words: the second and third word - the names of input and output files.
+   + If the first word is equal to "code" then execute algorithm 1.
+   + If the first word is equal to "decode" then execute algorithm 2.
+   + Otherwise output an error about the incorrect task file format.
++ Algorithm №1:
+   + Opens input and output files (output error if failed).
+   + For all read lines from the input file, transliterate the lines according to the algorithm №3, transliterate the line, write to the      source file and close the program.
++ Algorithm №2:
+   + Opens input and output files (output error if failed).
+   + For all read lines from the input file, transliterate the lines according to the algorithm №3, transliterate the line, write to the source file and close the program.
++ Algorithm № 3
+   + On the input line in coding "code". At the output in the encoding "decode"
+   + Pass the string to the class. We call f-tion for line transliteration.
+   + Transliteration from Russian to English follows the algorithm: there are no exceptions, everything takes place in a loop, in the loop we look for the appropriate character in the line and replace it with a character from the line char rus [33] [10], which was done earlier.
+   + Transliteration from English to Russian follows the algorithm: there is an exception, the exception is checked before the main loop, everything else goes in the loop, in the loop we look for the appropriate character in the line and replace it with a character from the line char eng [33] [10] earlier.
+
 # Author
 + Made by: Kosinsky Denis.
 + [Linkedin](https://www.linkedin.com/in/denys-kosinskiy-025a391aa/)
